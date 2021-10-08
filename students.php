@@ -17,6 +17,7 @@
          <th>ID</th>
          <th>NAME</th>
          <th>CITY</th>
+         <th>Edit</th>
      </tr>
 
      <?php
@@ -29,6 +30,7 @@
              <td> <?= $row['id']; ?> </td>
              <td> <?= $row['name']; ?> </td>
              <td> <?= $row['city']; ?> </td>
+             <td> <a href="edit.php?id=<?= $row['id'] ?>">Edit</a> </td>
          </tr>
 
      <?php
